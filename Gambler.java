@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class Gambler
 {
+
 	public static void main(String[]args)
 	{
-		int a,b;
-		Scanner sc = new Scanner(System.in);
-		{
-			System.out.println("a For win stake  ");
-		}
-	
 		
-	System.out.println("b for loose stake ");
-	}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter stake money of every day");
+		int stake =sc.nextInt();
+		System.out.println("enter bet money  of every day");
+		int bet=sc.nextInt();
+
+}
 
 }
