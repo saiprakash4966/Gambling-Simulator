@@ -19,15 +19,18 @@ public class Gambler3
 
 		int currentstake = 0;
 		while(currentstake < maxstake && currentstake > minstake)
-		if(number==0) {
-			currentstake--;
-		}
-		else
-		{
-			
-			currentstake++;
-		}
-		System.out.println("Current stake is  "+currentstake);
+		if(number==0)
+			{
+				System.out.println("Gambler Loss");
+				currentstake--;
+			}
+			else
+			{
+				System.out.println("Gambler Win");
+				currentstake++;
+			}
+		System.out.println("Current stack value is  "+currentstake);
+
 		
 		
 		sc.close();
